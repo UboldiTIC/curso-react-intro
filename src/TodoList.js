@@ -2,9 +2,11 @@ import './TodoList.css';
 
 function TodoList({ children }) {
     return (
-      <ul>
-        {children}
-      </ul>
+      <div className="todo-list-container">
+        <ul>
+          {children}
+        </ul>
+      </div>
     );
 }
 

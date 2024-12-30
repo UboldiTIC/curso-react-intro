@@ -1,5 +1,12 @@
+.todo-list-container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
 ul {
     list-style-type: none;
     text-align: center;
-    
+    padding: 0;
+    margin: 0; 
 }
