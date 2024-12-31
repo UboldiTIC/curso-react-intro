@@ -1,6 +1,11 @@
 h1 {
     font-size: 24px;
+    font-weight: 400;
     text-align: center;
     margin: 0;
-    padding: 48px;
+    padding: 40px;
+}
+
+h1 .TodoCounter-completed {
+    font-weight: bold;
 }

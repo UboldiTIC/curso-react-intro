@@ -1,15 +1,18 @@
 .todo-search-container {
     display: flex;
     justify-content: center;
-    margin: 20px 5px;
+    margin: 5px 5px;
 }
   
   .todo-search-input {
     width: 100%;
-    max-width: 250px;
+    max-width: 225px;
     height: 30px;
+    margin-bottom: 50px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    box-shadow:  -7px -7px 75px #c6c6c6,
+             7px 7px 75px #d2d2d2;
 }

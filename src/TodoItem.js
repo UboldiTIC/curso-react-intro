@@ -3,9 +3,9 @@ import './TodoItem.css';
 function TodoItem(props) {
     return (
       <li>
-        <span>V</span>
+        <span className="TodoItem-icon-check">V</span>
         <p>{props.text}</p>
-        <span>X</span>
+        <span className="TodoItem-icon-delete" >X</span>
       </li>
     );
   }
