@@ -2,9 +2,7 @@ import './CreateTodoButton.css';
 
 function CreateTodoButton() {
     return (
-      <div className="create-todo-button">
-        <button>+</button>
-      </div>
+      <button className='create-todo-button'  >+</button>
     );
   }
 

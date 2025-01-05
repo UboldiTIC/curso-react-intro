@@ -1,11 +1,11 @@
-h1 {
+.TodoCounter-completed {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
     margin: 0;
-    padding: 40px;
+    padding: 48px;
 }
 
-h1 .TodoCounter-completed {
-    font-weight: bold;
+.TodoCounter-completed span {
+    font-weight: 700;
 }

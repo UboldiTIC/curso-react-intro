@@ -2,10 +2,10 @@ import './TodoItem.css';
 
 function TodoItem(props) {
     return (
-      <li>
-        <span className="TodoItem-icon-check">V</span>
-        <p>{props.text}</p>
-        <span className="TodoItem-icon-delete" >X</span>
+      <li className="TodoItem">
+        <span className="Icon Icon-check Icon-check--active">V</span>
+        <p className="TodoItem-p TodoItem-p--completed">{props.text}</p>
+        <span className="Icon Icon-delete" >X</span>
       </li>
     );
   }
